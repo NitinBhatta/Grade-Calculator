@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Grade Calculator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Student Grade Calculator</h1>
+      <form id="gradeForm">
+        <label for="name">Student Name:</label>
+        <input
+          type="text"
+          id="name"
+          placeholder="Enter student name"
+          required
+        />
+
+        <label for="maths">Maths Score:</label>
+        <input
+          type="number"
+          id="maths"
+          placeholder="Enter maths score"
+          required
+        />
+
+        <label for="science">Science Score:</label>
+        <input
+          type="number"
+          id="science"
+          placeholder="Enter science score"
+          required
+        />
+
+        <label for="computer">Computer Score:</label>
+        <input
+          type="number"
+          id="computer"
+          placeholder="Enter computer score"
+          required
+        />
+
+        <button type="submit">Calculate Grade</button>
+      </form>
+
+      <div id="result" class="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
